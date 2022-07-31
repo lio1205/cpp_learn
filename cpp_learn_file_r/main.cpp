@@ -18,7 +18,7 @@
 #include <fstream>
 #include <string>
 
-void test1(void){
+void read_file(void){
     std::ifstream ifs;
     ifs.open("test.txt", std::ios::in);
     if(!ifs.is_open()){
@@ -56,6 +56,6 @@ void test1(void){
 }
 
 int main(void){
-    test1();
+    read_file();
     return 0;
 }

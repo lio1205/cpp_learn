@@ -30,8 +30,7 @@ ios::binary | ios::out
 #include <iostream>
 #include <fstream>
 
-void test01()
-{
+void write_file(void){
     std::ofstream ofs;
     ofs.open("test.txt", std::ios::out);
     ofs << "姓名：张三" << std::endl;
@@ -40,8 +39,7 @@ void test01()
     ofs.close();
 }
 
-int main(void)
-{
-    test01();
+int main(void){
+    write_file();
     return 0;
 }
