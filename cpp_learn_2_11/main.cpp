@@ -75,6 +75,5 @@ int main(void){
     point.setY(0);
     isInCircle(c, point);
 
-
     return 0;
 }
