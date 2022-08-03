@@ -73,7 +73,6 @@ int main(void){
     Point point;
     point.setX(0);
     point.setY(0);
-
     isInCircle(c, point);
 
     return 0;
